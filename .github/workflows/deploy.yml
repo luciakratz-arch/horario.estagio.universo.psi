@@ -28,3 +28,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           channelId: live
           projectId: universo-1b13a
+          target: universo-1b13a
