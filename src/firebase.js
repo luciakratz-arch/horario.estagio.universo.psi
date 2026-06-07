@@ -1,18 +1,15 @@
 // src/firebase.js
-// ⚠️  Substitua estes valores pelas suas credenciais do Firebase Console
-// Acesse: https://console.firebase.google.com → Seu projeto → Configurações → Apps Web
-
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "COLE_AQUI_SUA_API_KEY",
-  authDomain: "SEU_PROJETO.firebaseapp.com",
-  projectId: "SEU_PROJETO_ID",
-  storageBucket: "SEU_PROJETO.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyCharzmZLN_zPtKAUXiu2BmjlNNCt5b-T4",
+  authDomain: "universo-1b13a.firebaseapp.com",
+  projectId: "universo-1b13a",
+  storageBucket: "universo-1b13a.firebasestorage.app",
+  messagingSenderId: "928497218431",
+  appId: "1:928497218431:web:8e4fecc39aacafca89a04a"
 };
 
 const app = initializeApp(firebaseConfig);
